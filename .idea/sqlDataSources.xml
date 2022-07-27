@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="15af2830-50bb-4b20-a552-15372623e3ac" name="weather@localhost Mapping">
+      <data-sources db="1b6176f2-9bbf-4942-b400-4304dd850604" />
+    </mapping>
+  </component>
+</project>
