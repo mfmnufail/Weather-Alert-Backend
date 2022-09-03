@@ -1,7 +1,7 @@
 package com.weather.system.service.impl;
 
 
-import com.weather.system.entity.Weather;
+import com.weather.system.entity.Alert;
 import com.weather.system.repository.WeatherRepository;
 import com.weather.system.service.WeatherService;
 import org.springframework.stereotype.Service;
@@ -19,7 +19,7 @@ public class WeatherServiceImpl implements WeatherService {
 
 
     @Override
-    public List<Weather> getWeatherDetails() {
+    public List<Alert> getWeatherDetails() {
         return repository.findAll();
     }
 }

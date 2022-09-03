@@ -7,7 +7,9 @@ import java.util.List;
 public interface ObserverService {
 
     Observer createObserver(Observer observer);
+    Observer findObserverByUsername(String username);
+    Observer findObserverByEmail(String email);
     List<Observer> getAllObservers();
-    void deleteObserver(long id);
+    void deleteObserver(String id);
 
 }

@@ -8,4 +8,9 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ObserverRepository extends MongoRepository<Observer,String> {
+
+    Observer findObserverByUsername(String username);
+    Observer findObserverByEmail(String email);
+
+
 }
